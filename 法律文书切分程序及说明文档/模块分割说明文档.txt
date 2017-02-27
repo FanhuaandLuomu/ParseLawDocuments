@@ -1,47 +1,47 @@
-�����స��ģ��ָ
-���룺ԭʼĿ¼(hunyin_case)���ָ�Ŀ¼ (split_case)
-�������ԭʼĿ¼���ļ����ݷָ�ɱ��⡢�ײ�����ʵ�����ɡ��������ݡ�����ȫ�ġ�β�������(��������������)��7������д��ָ�Ŀ¼�ж�Ӧ���ļ���
+婚姻类案件模块分割：
+输入：原始目录(hunyin_case)，分割目录 (split_case)
+输出：将原始目录的文件内容分割成标题、首部、事实、理由、裁判依据、裁判全文、尾部和落款(包括署名和日期)共7个部分写入分割目录中对应的文件。
 
-һ��Ԥ������get_text������
+一、预处理（get_text函数）
 
-��ԭʼ�ļ������еĿհ׷�ȥ������GB18030�ı������unicode���Է��㴦�������ڲ������ݺ���ʵ������ͬһ�У���Ѱ�ҡ����ա����������ݡ����������ݡ����ȹؼ��ʣ������дӹؼ��ʴ��ֳ����У��Ա�����ķָ
+将原始文件内容中的空白符去掉，将GB18030文本解码成unicode，以方便处理。由于裁判依据和事实可能在同一行，先寻找“依照《”、“根据《”、“依据《”等关键词，将该行从关键词处分成两行，以便后续的分割。
 
-����ģ��ָcut_case������
+二、模块分割（cut_case函数）
 
-1.���⣺0,1,2����Ϊ����
+1.标题：0,1,2三行为标题
 
-2.��ʼ���ùؼ��ʡ�Ժ��������ִ��Ա���������г����� ������Ա����������Ա����������Ա���ȣ�Ѱ���ĵ��е�һ�γ�����Щ�ؼ����Ҹ����ַ���С��20���У������к�luokuan_begin_no��
+2.落款开始：用关键词“院长”、“执行员”、“审判长”、 “审判员”、“审理员”、“陪审员”等，寻找文档中第一次出现这些关键词且该行字符数小于20的行，返回行号luokuan_begin_no。
 
-3.���������ùؼ��ʡ����Ա����Ѱ���ĵ������һ�γ��ָùؼ��ʵ��У������к�luokuan_end_no��ͬʱɾ��������ĸ�¼���֡�
+3.落款结束：用关键词“书记员”，寻找文档中最后一次出现该关键词的行，返回行号luokuan_end_no。同时删除落款后面的附录部分。
 
-4.�ײ���ʼ����3��
+4.首部开始：第3行
 
-5.�ײ��������ùؼ��ʡ������սᡣ�������������롣���ȣ�Ѱ���ĵ��е�һ�γ�����Щ�ؼ��ʵ��У������к�shoubu_end_no��
+5.首部结束：用关键词“审理终结。”、“撤诉申请。”等，寻找文档中第一次出现这些关键词的行，返回行号shoubu_end_no。
 
-6.��ʵ���ײ�������֮��Ĳ���Ϊ��ʵ��
+6.事实：首部和理由之间的部分为事实。
 
-6.���ɿ�ʼ���ùؼ��ʡ���Ժ��Ϊ��, ����Ժ��������,����Ժ������Ϊ��, ����Ժ���������ȣ�Ѱ���ĵ������һ�γ�����Щ�ؼ��ʵ��У������к�liyou_begin_no�����û���ҵ������ز���������һ���к�liyou_begin_no = caipanyiju_begin_no - 1
+6.理由开始：用关键词“本院认为”, “本院在审理”,“本院审理认为”, “本院在受理”等，寻找文档中最后一次出现这些关键词的行，返回行号liyou_begin_no。如果没有找到，返回裁判依据上一行行号liyou_begin_no = caipanyiju_begin_no - 1
 
-7.���ɽ�����caipanyiju_begin_no-1
+7.理由结束：caipanyiju_begin_no-1
 
-8.�������ݿ�ʼ���ùؼ��ʡ��ö����£���, ���о����¡�,�����ա���, �����ݡ�����������Ӧ��׼�����������ϡ����ȣ�Ѱ���ĵ������һ�γ�����Щ�ؼ��ʵ��У������к�caipanyiju_begin_no����������һ��ֻ��һ�С�
+8.裁判依据开始：用关键词“裁定如下：”, “判决如下”,“依照《”, “根据《”，“依法应予准许”，“符合《”等，寻找文档中最后一次出现这些关键词的行，返回行号caipanyiju_begin_no。裁判依据一般只有一行。
 
-9.β����ʼ�������������ʽ��(����|����|����)(.{,20})(\d+Ԫ|����)���������һ�п�ʼѰ�ҷ��ϸ��������ʽ���У��������к�weibu_begin_no�����û���ҵ������������У�������ʼ���к�weibu_begin_no = luokuan_begin_no
+9.尾部开始：先用正则表达式“(受理|诉讼|减半)(.{,20})(\d+元|免收)”，从最后一行开始寻找符合该正则表达式的行，并返回行号weibu_begin_no。如果没有找到符合条件的行，返回落款开始的行号weibu_begin_no = luokuan_begin_no
 
-10.β��������luokuan_begin_no-1
+10.尾部结束：luokuan_begin_no-1
 
-����д���ļ�
+三、写入文件
 
-��������ȡ�����󣬰��ձ��⡢�ײ�����ʵ�����ɡ��������ݡ�����ȫ�ġ�β��������˳��д��ָ��ĵ�Ŀ¼�ж�Ӧ�ĵ���
+各部分提取出来后，按照标题、首部、事实、理由、裁判依据、裁判全文、尾部和落款的顺序写入分割文档目录中对应文档。
 
-�ġ���������
-1.���Ȱ�װ�ļ����е�Anzconda.exe
-2.�ڵ�ǰĿ¼�´�������,�������python split_case.py source_path target_path  
-  ע1��source_path:��Ҫ�зֵĻ����෨��������ļ�����   target_path���зֺ��ļ�������ļ�������
+四、运行命令
+1.首先安装文件夹中的Anzconda.exe
+2.在当前目录下打开命令行,输入命令：python split_case.py source_path target_path  
+  注1：source_path:需要切分的婚姻类法律文书的文件夹名   target_path：切分后文件保存的文件夹名字
 
-  eg. python split_case.py hunyin_case split_case  ����hunyin_case�����Ǵ�������зֵ��ļ���  split_case���зֺ���ļ�����
+  eg. python split_case.py hunyin_case split_case  其中hunyin_case是我们处理后待切分的文件集  split_case是切分后的文件集。
 
-  ע2��Ŀǰ����ֻ�Ի����స�������˷�����hunyin_case�������ǳ�ȡ���Ļ����෨�ɰ�����
+  注2：目前我们只对婚姻类案件进行了分析，hunyin_case中是我们抽取出的婚姻类法律案件。
   
-
+  语料下载 http://download.csdn.net/detail/u013303789/9765344
 
