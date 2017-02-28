@@ -1,0 +1,250 @@
+--law_index:1--lenTP:3318--lenTN:4682--lenP:880--lenN:1120--raw_rate:0.560--time:2017-02-28 11:01:18-
+label:0 	 precision:0.78007 	 recall:0.81071 	 F1:0.79510
+label:1 	 precision:0.74641 	 recall:0.70909 	 F1:0.72727
+------------acc:0.76600-----------------
+
+--law_index:2--lenTP:2909--lenTN:5091--lenP:642--lenN:1358--raw_rate:0.679--time:2017-02-28 11:01:31-
+label:0 	 precision:0.90760 	 recall:0.89691 	 F1:0.90222
+label:1 	 precision:0.78723 	 recall:0.80685 	 F1:0.79692
+------------acc:0.86800-----------------
+
+--law_index:3--lenTP:2203--lenTN:5797--lenP:646--lenN:1354--raw_rate:0.677--time:2017-02-28 11:01:45-
+label:0 	 precision:0.83982 	 recall:0.84417 	 F1:0.84199
+label:1 	 precision:0.66980 	 recall:0.66254 	 F1:0.66615
+------------acc:0.78550-----------------
+
+--law_index:4--lenTP:1687--lenTN:6313--lenP:442--lenN:1558--raw_rate:0.779--time:2017-02-28 11:01:57-
+label:0 	 precision:0.99159 	 recall:0.98331 	 F1:0.98743
+label:1 	 precision:0.94286 	 recall:0.97059 	 F1:0.95652
+------------acc:0.98050-----------------
+
+--law_index:5--lenTP:1477--lenTN:6523--lenP:460--lenN:1540--raw_rate:0.770--time:2017-02-28 11:02:10-
+label:0 	 precision:0.88960 	 recall:0.90519 	 F1:0.89733
+label:1 	 precision:0.66282 	 recall:0.62391 	 F1:0.64278
+------------acc:0.84050-----------------
+
+--law_index:6--lenTP:1480--lenTN:6520--lenP:346--lenN:1654--raw_rate:0.827--time:2017-02-28 11:02:23-
+label:0 	 precision:0.91954 	 recall:0.91898 	 F1:0.91926
+label:1 	 precision:0.61383 	 recall:0.61561 	 F1:0.61472
+------------acc:0.86650-----------------
+
+--law_index:7--lenTP:1237--lenTN:6763--lenP:294--lenN:1706--raw_rate:0.853--time:2017-02-28 11:02:36-
+label:0 	 precision:0.90604 	 recall:0.93259 	 F1:0.91912
+label:1 	 precision:0.52869 	 recall:0.43878 	 F1:0.47955
+------------acc:0.86000-----------------
+
+--law_index:8--lenTP:1209--lenTN:6791--lenP:276--lenN:1724--raw_rate:0.862--time:2017-02-28 11:02:49-
+label:0 	 precision:0.91528 	 recall:0.95882 	 F1:0.93654
+label:1 	 precision:0.63402 	 recall:0.44565 	 F1:0.52340
+------------acc:0.88800-----------------
+
+--law_index:9--lenTP:1131--lenTN:6869--lenP:220--lenN:1780--raw_rate:0.890--time:2017-02-28 11:03:00-
+label:0 	 precision:0.94580 	 recall:0.98034 	 F1:0.96276
+label:1 	 precision:0.77419 	 recall:0.54545 	 F1:0.64000
+------------acc:0.93250-----------------
+
+--law_index:10--lenTP:1058--lenTN:6942--lenP:275--lenN:1725--raw_rate:0.863--time:2017-02-28 11:03:13-
+label:0 	 precision:0.89785 	 recall:0.96812 	 F1:0.93166
+label:1 	 precision:0.60714 	 recall:0.30909 	 F1:0.40964
+------------acc:0.87750-----------------
+
+--law_index:11--lenTP:999--lenTN:7001--lenP:110--lenN:1890--raw_rate:0.945--time:2017-02-28 11:03:26-
+label:0 	 precision:0.96109 	 recall:0.95397 	 F1:0.95751
+label:1 	 precision:0.29839 	 recall:0.33636 	 F1:0.31624
+------------acc:0.92000-----------------
+
+--law_index:12--lenTP:935--lenTN:7065--lenP:111--lenN:1889--raw_rate:0.945--time:2017-02-28 11:03:38-
+label:0 	 precision:0.96440 	 recall:0.93224 	 F1:0.94805
+label:1 	 precision:0.26437 	 recall:0.41441 	 F1:0.32281
+------------acc:0.90350-----------------
+
+--law_index:13--lenTP:771--lenTN:7229--lenP:222--lenN:1778--raw_rate:0.889--time:2017-02-28 11:03:51-
+label:0 	 precision:0.92389 	 recall:0.93532 	 F1:0.92957
+label:1 	 precision:0.42500 	 recall:0.38288 	 F1:0.40284
+------------acc:0.87400-----------------
+
+--law_index:14--lenTP:802--lenTN:7198--lenP:173--lenN:1827--raw_rate:0.913--time:2017-02-28 11:04:02-
+label:0 	 precision:0.96896 	 recall:0.95676 	 F1:0.96282
+label:1 	 precision:0.59694 	 recall:0.67630 	 F1:0.63415
+------------acc:0.93250-----------------
+
+--law_index:15--lenTP:627--lenTN:7373--lenP:210--lenN:1790--raw_rate:0.895--time:2017-02-28 11:04:14-
+label:0 	 precision:0.91390 	 recall:0.95475 	 F1:0.93388
+label:1 	 precision:0.37692 	 recall:0.23333 	 F1:0.28824
+------------acc:0.87900-----------------
+
+--law_index:16--lenTP:860--lenTN:7140--lenP:0--lenN:2000--raw_rate:1.000--time:2017-02-28 11:04:26-
+label:0 	 precision:1.00000 	 recall:0.99650 	 F1:0.99825
+label:1 	 precision:0.00000 	 recall:0.00000 	 F1:0.00000
+------------acc:0.99650-----------------
+
+--law_index:17--lenTP:674--lenTN:7326--lenP:150--lenN:1850--raw_rate:0.925--time:2017-02-28 11:04:38-
+label:0 	 precision:0.95779 	 recall:0.95676 	 F1:0.95727
+label:1 	 precision:0.47368 	 recall:0.48000 	 F1:0.47682
+------------acc:0.92100-----------------
+
+--law_index:18--lenTP:520--lenTN:7480--lenP:255--lenN:1745--raw_rate:0.873--time:2017-02-28 11:04:50-
+label:0 	 precision:0.93042 	 recall:0.98854 	 F1:0.95860
+label:1 	 precision:0.86301 	 recall:0.49412 	 F1:0.62843
+------------acc:0.92550-----------------
+
+--law_index:19--lenTP:466--lenTN:7534--lenP:131--lenN:1869--raw_rate:0.934--time:2017-02-28 11:05:02-
+label:0 	 precision:0.95584 	 recall:0.98448 	 F1:0.96995
+label:1 	 precision:0.61333 	 recall:0.35115 	 F1:0.44660
+------------acc:0.94300-----------------
+
+--law_index:20--lenTP:455--lenTN:7545--lenP:122--lenN:1878--raw_rate:0.939--time:2017-02-28 11:05:14-
+label:0 	 precision:0.94984 	 recall:0.97817 	 F1:0.96380
+label:1 	 precision:0.37879 	 recall:0.20492 	 F1:0.26596
+------------acc:0.93100-----------------
+
+--law_index:21--lenTP:447--lenTN:7553--lenP:107--lenN:1893--raw_rate:0.947--time:2017-02-28 11:05:26-
+label:0 	 precision:0.96749 	 recall:0.97464 	 F1:0.97105
+label:1 	 precision:0.48387 	 recall:0.42056 	 F1:0.45000
+------------acc:0.94500-----------------
+
+--law_index:22--lenTP:422--lenTN:7578--lenP:134--lenN:1866--raw_rate:0.933--time:2017-02-28 11:05:38-
+label:0 	 precision:0.95226 	 recall:0.97267 	 F1:0.96235
+label:1 	 precision:0.45745 	 recall:0.32090 	 F1:0.37719
+------------acc:0.92900-----------------
+
+--law_index:23--lenTP:414--lenTN:7586--lenP:141--lenN:1859--raw_rate:0.929--time:2017-02-28 11:05:50-
+label:0 	 precision:0.96682 	 recall:0.98763 	 F1:0.97712
+label:1 	 precision:0.77228 	 recall:0.55319 	 F1:0.64463
+------------acc:0.95700-----------------
+
+--law_index:24--lenTP:377--lenTN:7623--lenP:130--lenN:1870--raw_rate:0.935--time:2017-02-28 11:06:00-
+label:0 	 precision:0.99947 	 recall:1.00000 	 F1:0.99973
+label:1 	 precision:1.00000 	 recall:0.99231 	 F1:0.99614
+------------acc:0.99950-----------------
+
+--law_index:25--lenTP:424--lenTN:7576--lenP:63--lenN:1937--raw_rate:0.969--time:2017-02-28 11:06:12-
+label:0 	 precision:0.97473 	 recall:0.97574 	 F1:0.97523
+label:1 	 precision:0.22951 	 recall:0.22222 	 F1:0.22581
+------------acc:0.95200-----------------
+
+--law_index:26--lenTP:359--lenTN:7641--lenP:105--lenN:1895--raw_rate:0.948--time:2017-02-28 11:06:23-
+label:0 	 precision:0.97244 	 recall:0.98681 	 F1:0.97957
+label:1 	 precision:0.67532 	 recall:0.49524 	 F1:0.57143
+------------acc:0.96100-----------------
+
+--law_index:27--lenTP:316--lenTN:7684--lenP:136--lenN:1864--raw_rate:0.932--time:2017-02-28 11:06:34-
+label:0 	 precision:0.93987 	 recall:0.99785 	 F1:0.96799
+label:1 	 precision:0.80952 	 recall:0.12500 	 F1:0.21656
+------------acc:0.93850-----------------
+
+--law_index:28--lenTP:397--lenTN:7603--lenP:34--lenN:1966--raw_rate:0.983--time:2017-02-28 11:06:46-
+label:0 	 precision:0.98684 	 recall:0.99135 	 F1:0.98909
+label:1 	 precision:0.32000 	 recall:0.23529 	 F1:0.27119
+------------acc:0.97850-----------------
+
+--law_index:29--lenTP:285--lenTN:7715--lenP:81--lenN:1919--raw_rate:0.960--time:2017-02-28 11:06:58-
+label:0 	 precision:0.96743 	 recall:0.99062 	 F1:0.97889
+label:1 	 precision:0.48571 	 recall:0.20988 	 F1:0.29310
+------------acc:0.95900-----------------
+
+--law_index:30--lenTP:301--lenTN:7699--lenP:55--lenN:1945--raw_rate:0.973--time:2017-02-28 11:07:08-
+label:0 	 precision:1.00000 	 recall:0.99743 	 F1:0.99871
+label:1 	 precision:0.91667 	 recall:1.00000 	 F1:0.95652
+------------acc:0.99750-----------------
+
+--law_index:31--lenTP:241--lenTN:7759--lenP:80--lenN:1920--raw_rate:0.960--time:2017-02-28 11:07:19-
+label:0 	 precision:0.98082 	 recall:0.98542 	 F1:0.98311
+label:1 	 precision:0.60563 	 recall:0.53750 	 F1:0.56954
+------------acc:0.96750-----------------
+
+--law_index:32--lenTP:170--lenTN:7830--lenP:130--lenN:1870--raw_rate:0.935--time:2017-02-28 11:07:30-
+label:0 	 precision:0.99947 	 recall:1.00000 	 F1:0.99973
+label:1 	 precision:1.00000 	 recall:0.99231 	 F1:0.99614
+------------acc:0.99950-----------------
+
+--law_index:33--lenTP:219--lenTN:7781--lenP:11--lenN:1989--raw_rate:0.995--time:2017-02-28 11:07:41-
+label:0 	 precision:0.99449 	 recall:0.99749 	 F1:0.99598
+label:1 	 precision:0.00000 	 recall:0.00000 	 F1:0.00000
+------------acc:0.99200-----------------
+
+--law_index:34--lenTP:171--lenTN:7829--lenP:42--lenN:1958--raw_rate:0.979--time:2017-02-28 11:07:52-
+label:0 	 precision:0.98388 	 recall:0.99745 	 F1:0.99062
+label:1 	 precision:0.66667 	 recall:0.23810 	 F1:0.35088
+------------acc:0.98150-----------------
+
+--law_index:35--lenTP:206--lenTN:7794--lenP:2--lenN:1998--raw_rate:0.999--time:2017-02-28 11:08:04-
+label:0 	 precision:0.99900 	 recall:1.00000 	 F1:0.99950
+label:1 	 precision:0.00000 	 recall:0.00000 	 F1:0.00000
+------------acc:0.99900-----------------
+
+--law_index:36--lenTP:111--lenTN:7889--lenP:76--lenN:1924--raw_rate:0.962--time:2017-02-28 11:08:14-
+label:0 	 precision:0.96200 	 recall:1.00000 	 F1:0.98063
+label:1 	 precision:0.00000 	 recall:0.00000 	 F1:0.00000
+------------acc:0.96200-----------------
+
+--law_index:37--lenTP:158--lenTN:7842--lenP:22--lenN:1978--raw_rate:0.989--time:2017-02-28 11:08:25-
+label:0 	 precision:0.99147 	 recall:0.99899 	 F1:0.99522
+label:1 	 precision:0.71429 	 recall:0.22727 	 F1:0.34483
+------------acc:0.99050-----------------
+
+--law_index:38--lenTP:134--lenTN:7866--lenP:42--lenN:1958--raw_rate:0.979--time:2017-02-28 11:08:36-
+label:0 	 precision:0.98638 	 recall:0.99898 	 F1:0.99264
+label:1 	 precision:0.88235 	 recall:0.35714 	 F1:0.50847
+------------acc:0.98550-----------------
+
+--law_index:39--lenTP:117--lenTN:7883--lenP:39--lenN:1961--raw_rate:0.981--time:2017-02-28 11:08:47-
+label:0 	 precision:0.98888 	 recall:0.99796 	 F1:0.99340
+label:1 	 precision:0.80952 	 recall:0.43590 	 F1:0.56667
+------------acc:0.98700-----------------
+
+--law_index:40--lenTP:148--lenTN:7852--lenP:10--lenN:1990--raw_rate:0.995--time:2017-02-28 11:08:58-
+label:0 	 precision:0.99500 	 recall:1.00000 	 F1:0.99749
+label:1 	 precision:0.00000 	 recall:0.00000 	 F1:0.00000
+------------acc:0.99500-----------------
+
+--law_index:41--lenTP:116--lenTN:7884--lenP:32--lenN:1968--raw_rate:0.984--time:2017-02-28 11:09:09-
+label:0 	 precision:0.98495 	 recall:0.99746 	 F1:0.99116
+label:1 	 precision:0.28571 	 recall:0.06250 	 F1:0.10256
+------------acc:0.98250-----------------
+
+--law_index:42--lenTP:111--lenTN:7889--lenP:32--lenN:1968--raw_rate:0.984--time:2017-02-28 11:09:20-
+label:0 	 precision:0.99192 	 recall:0.99746 	 F1:0.99468
+label:1 	 precision:0.76190 	 recall:0.50000 	 F1:0.60377
+------------acc:0.98950-----------------
+
+--law_index:43--lenTP:82--lenTN:7918--lenP:46--lenN:1954--raw_rate:0.977--time:2017-02-28 11:09:31-
+label:0 	 precision:0.97797 	 recall:0.99949 	 F1:0.98861
+label:1 	 precision:0.66667 	 recall:0.04348 	 F1:0.08163
+------------acc:0.97750-----------------
+
+--law_index:44--lenTP:94--lenTN:7906--lenP:30--lenN:1970--raw_rate:0.985--time:2017-02-28 11:09:42-
+label:0 	 precision:0.98546 	 recall:0.99797 	 F1:0.99168
+label:1 	 precision:0.20000 	 recall:0.03333 	 F1:0.05714
+------------acc:0.98350-----------------
+
+--law_index:45--lenTP:86--lenTN:7914--lenP:31--lenN:1969--raw_rate:0.985--time:2017-02-28 11:09:53-
+label:0 	 precision:0.98697 	 recall:1.00000 	 F1:0.99344
+label:1 	 precision:1.00000 	 recall:0.16129 	 F1:0.27778
+------------acc:0.98700-----------------
+
+--law_index:46--lenTP:101--lenTN:7899--lenP:13--lenN:1987--raw_rate:0.994--time:2017-02-28 11:10:04-
+label:0 	 precision:0.99399 	 recall:0.99899 	 F1:0.99649
+label:1 	 precision:0.33333 	 recall:0.07692 	 F1:0.12500
+------------acc:0.99300-----------------
+
+--law_index:47--lenTP:103--lenTN:7897--lenP:8--lenN:1992--raw_rate:0.996--time:2017-02-28 11:10:16-
+label:0 	 precision:0.99600 	 recall:1.00000 	 F1:0.99800
+label:1 	 precision:0.00000 	 recall:0.00000 	 F1:0.00000
+------------acc:0.99600-----------------
+
+--law_index:48--lenTP:80--lenTN:7920--lenP:22--lenN:1978--raw_rate:0.989--time:2017-02-28 11:10:27-
+label:0 	 precision:0.99197 	 recall:0.99899 	 F1:0.99547
+label:1 	 precision:0.75000 	 recall:0.27273 	 F1:0.40000
+------------acc:0.99100-----------------
+
+--law_index:49--lenTP:55--lenTN:7945--lenP:35--lenN:1965--raw_rate:0.983--time:2017-02-28 11:10:38-
+label:0 	 precision:0.98298 	 recall:0.99949 	 F1:0.99117
+label:1 	 precision:0.50000 	 recall:0.02857 	 F1:0.05405
+------------acc:0.98250-----------------
+
+--law_index:50--lenTP:83--lenTN:7917--lenP:14--lenN:1986--raw_rate:0.993--time:2017-02-28 11:10:49-
+label:0 	 precision:0.99300 	 recall:1.00000 	 F1:0.99649
+label:1 	 precision:0.00000 	 recall:0.00000 	 F1:0.00000
+------------acc:0.99300-----------------
+

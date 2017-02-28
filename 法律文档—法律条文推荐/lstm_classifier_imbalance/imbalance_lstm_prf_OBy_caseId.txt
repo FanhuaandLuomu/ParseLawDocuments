@@ -1,0 +1,5 @@
+--law_index:1--lenT:7800--lenV:200--lenP:880--lenN:1120--raw_rate:0--time:2016-12-24 12:29:05--
+label:0 	 precision:0.81679 	 recall:0.71250 	 F1:0.76109
+label:1 	 precision:0.68524 	 recall:0.79659 	 F1:0.73673
+------------acc:0.74950------------
+
