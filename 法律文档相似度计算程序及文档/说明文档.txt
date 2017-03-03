@@ -1,26 +1,26 @@
-Ò»¡¢·Ö´Ê³ÌÐò£º
-ÊäÈë£º°´Ê×²¿µÈÇÐ¸îºóµÄÎÄµµËùÔÚÎÄ¼þ¼ÐÃû   ·Ö´ÊºóÎÄµµ´æ·ÅµÄÎÄ¼þ¼ÐÃû
-Êä³ö£º·Ö´ÊºóµÄ·¨ÂÉÎÄµµ£¬±£´æÔÚÏàÓ¦µÄÎÄ¼þ¼Ð
+ä¸€ã€åˆ†è¯ç¨‹åºï¼š
+è¾“å…¥ï¼šæŒ‰é¦–éƒ¨ç­‰åˆ‡å‰²åŽçš„æ–‡æ¡£æ‰€åœ¨æ–‡ä»¶å¤¹å   åˆ†è¯åŽæ–‡æ¡£å­˜æ”¾çš„æ–‡ä»¶å¤¹å
+è¾“å‡ºï¼šåˆ†è¯åŽçš„æ³•å¾‹æ–‡æ¡£ï¼Œä¿å­˜åœ¨ç›¸åº”çš„æ–‡ä»¶å¤¹
 
-ÔËÐÐÃüÁî£º
+è¿è¡Œå‘½ä»¤ï¼š
 python    jieba_seg.py     split_case     split_seg_case
-# ÆäÖÐsplit_caseÎªÇÐ¸îºóµÄ·¨ÂÉÎÄµµËùÔÚÎÄ¼þ¼Ð   split_seg_caseÎª·Ö´ÊºóµÄÎÄ¼þ¼Ð
+# å…¶ä¸­split_caseä¸ºåˆ‡å‰²åŽçš„æ³•å¾‹æ–‡æ¡£æ‰€åœ¨æ–‡ä»¶å¤¹   split_seg_caseä¸ºåˆ†è¯åŽçš„æ–‡ä»¶å¤¹
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
-¶þ¡¢·¨ÂÉÎÄµµÏàËÆ¶È¼ÆËã³ÌÐò£º
-ÊäÈë£ºÐè²éÑ¯ÏàËÆÎÄ¼þµÄÎÄ¼þ£¨ÒÑ·Ö´Ê£©ËùÔÚÎÄ¼þ¼ÐÃû£¨test_path£©      ÏàËÆÎÄ¼þ£¨ÒÑ·Ö´Ê£©µÄÀ´Ô´£¨ÎÄ¼þ¼ÐÃû£©(train_path)     ÏàËÆÎÄ¼þµÄ¸öÊý£¨top_k£©
-Êä³ö£º¶ÔÓÚÃ¿¸öÎÄ¼þ£¬ÕÒ³öÓëÆä×îÏàËÆµÄtop_k¸öÎÄ¼þ£¬½«ÆäÎÄ¼þÃû±£´æÔÚsim_file.txtÖÐ
+äºŒã€æ³•å¾‹æ–‡æ¡£ç›¸ä¼¼åº¦è®¡ç®—ç¨‹åºï¼š
+è¾“å…¥ï¼šéœ€æŸ¥è¯¢ç›¸ä¼¼æ–‡ä»¶çš„æ–‡ä»¶ï¼ˆå·²åˆ†è¯ï¼‰æ‰€åœ¨æ–‡ä»¶å¤¹åï¼ˆtest_pathï¼‰      ç›¸ä¼¼æ–‡ä»¶ï¼ˆå·²åˆ†è¯ï¼‰çš„æ¥æºï¼ˆæ–‡ä»¶å¤¹åï¼‰(train_path)     ç›¸ä¼¼æ–‡ä»¶çš„ä¸ªæ•°ï¼ˆtop_kï¼‰
+è¾“å‡ºï¼šå¯¹äºŽæ¯ä¸ªæ–‡ä»¶ï¼Œæ‰¾å‡ºä¸Žå…¶æœ€ç›¸ä¼¼çš„top_kä¸ªæ–‡ä»¶ï¼Œå°†å…¶æ–‡ä»¶åä¿å­˜åœ¨sim_file.txtä¸­
 
-³ÌÐò¼òÒªËµÃ÷£º
-1.Ê×ÏÈ½âÎöÓÃ»§ËùÊä²ÎÊý
-2.¶ÁÈ¡test_pathºÍtrain_pathÖÐµÄÎÄ¼þ£¬¸ù¾Ý¹Ø¼ü×ÖµÃµ½¼ÆËãÏàËÆ¶ÈËùÐèµÄ²¿·Ö£¬Í³¼Æ¸÷ÎÄµµµÄ´ÊÆµÌØÕ÷£»
-3.½«´ÊÆµÌØÕ÷×ª»¯ÎªtfidfÌØÕ÷
-4.¶ÔÓÚÃ¿¸ö²éÑ¯ÎÄ¼þ£¬¼ÆËãÆäÓëtrain_pathÖÐÎÄµµµÄÏàËÆ¶È£¨ÓàÏÒÏàËÆ¶È£©£¬·µ»Ø×îÏàËÆµÄtop_k¸öÎÄµµ£»
-5.½«½á¹û±£´æ£¨sim_file.txt£©¡£
+ç¨‹åºç®€è¦è¯´æ˜Žï¼š
+1.é¦–å…ˆè§£æžç”¨æˆ·æ‰€è¾“å‚æ•°
+2.è¯»å–test_pathå’Œtrain_pathä¸­çš„æ–‡ä»¶ï¼Œæ ¹æ®å…³é”®å­—å¾—åˆ°è®¡ç®—ç›¸ä¼¼åº¦æ‰€éœ€çš„éƒ¨åˆ†ï¼Œç»Ÿè®¡å„æ–‡æ¡£çš„è¯é¢‘ç‰¹å¾ï¼›
+3.å°†è¯é¢‘ç‰¹å¾è½¬åŒ–ä¸ºtfidfç‰¹å¾
+4.å¯¹äºŽæ¯ä¸ªæŸ¥è¯¢æ–‡ä»¶ï¼Œè®¡ç®—å…¶ä¸Žtrain_pathä¸­æ–‡æ¡£çš„ç›¸ä¼¼åº¦ï¼ˆä½™å¼¦ç›¸ä¼¼åº¦ï¼‰ï¼Œè¿”å›žæœ€ç›¸ä¼¼çš„top_kä¸ªæ–‡æ¡£ï¼›
+5.å°†ç»“æžœä¿å­˜ï¼ˆsim_file.txtï¼‰ã€‚
 
-ÔËÐÐÃüÁî£º
+è¿è¡Œå‘½ä»¤ï¼š
 python    cal_similarity.py    test_path train_path    top_k
 
 eg. python    cal_similarity.py    test_path    split_seg_case    3
 
-Ô­Ê¼ÓïÁÏÏÂÔØ£ºhttp://download.csdn.net/detail/u013303789/9765344
+åŽŸå§‹è¯­æ–™ä¸‹è½½ï¼šhttps://pan.baidu.com/s/1mh6IBag
