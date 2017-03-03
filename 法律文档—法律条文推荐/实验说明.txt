@@ -11,4 +11,4 @@
 3.实验maxent分类，再取分类概率最高的前10个。特征选用bag-of-words.
 4.实验LSTM神经网络分类器，再取概率最高的前10个。特征选用词的embedding。
 
-ps:由于数据较多，整个实验数据放在了百度云，链接：https://pan.baidu.com/s/1mh6IBag
+ps:由于数据较多，整个实验数据放在了百度云，链接：https://pan.baidu.com/s/1mh6IBag  (汇总)
